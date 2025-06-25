@@ -1,0 +1,91 @@
+<style>
+    .example-one{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 10px;
+    }
+
+    .card{
+        border: 1px solid gray;
+        width: 200px;
+        height: 350px;
+    }
+
+
+    .cat-picture img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        
+    }
+
+
+    .profile-picture img{
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        border-radius: 50%;
+        vertical-align: middle;
+    }
+
+    .btn{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(78, 147, 204);
+        border: none;
+        color: white;
+        border-radius: 3px;
+    }
+
+    .grid-row{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 20px;
+    }
+</style>
+
+
+<!-- <div class="example-one">
+    <div style="background-color: lightblue;">col one</div>
+    <div style="background-color: lightcoral;">col two</div>
+</div> -->
+
+<!-- <div class="example-one">
+    <div style="background-color: lightblue;">col one</div>
+    <div style="background-color: lightcoral;">col two</div>
+    <div style="background-color: lightblue;">col one</div>
+    <div style="background-color: lightcoral;">col two</div>
+</div> -->
+
+<!-- <div class="example-one">
+    <div style="background-color: lightblue;">col one</div>
+    <div style="background-color: lightcoral;">col two</div>
+    <div style="background-color: lightblue;">col one</div>
+    <div style="background-color: lightcoral;">col two</div>
+    <div style="background-color: lightblue;">col one</div>
+    <div style="background-color: lightcoral;">col two</div>
+    <div style="background-color: lightblue;">col one</div>
+    <div style="background-color: lightcoral;">col two</div>
+</div> -->
+
+<div class="grid-row">
+        <div class="card">
+
+        <div class="cat-picture">
+            <img src="cat.jpg" alt="">
+            <p>
+                Oliver
+            </p>
+        </div>
+        <div class="profile-picture">
+            <div><img src="cat.jpg" alt=""> 2 mutual friends</div>
+            
+        </div>
+        <div>
+            <button class="btn">Add Friend</button>
+        </div>
+    </div>
+</div>
